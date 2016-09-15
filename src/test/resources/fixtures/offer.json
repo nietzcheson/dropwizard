@@ -1,0 +1,34 @@
+{
+  "name": "testseqr2",
+  "mealPlanId": 2,
+  "price": 2000,
+  "activationFee": 89,
+  "taxes": 100,
+  "countryCode": "USA",
+  "destinationIds": [1],
+  "status": 1,
+  "transportationId": 1,
+  "description": "lalatest",
+  "hookId": 0,
+  "nights": 4,
+  "translations": [
+    {
+      "languageCode": "es",
+      "websiteDescription": "There's a passage I got memorized. Ezekiel 25:17.",
+      "websiteDetails": "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of the darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who attempt to poison and destroy My brothers. And you will know I am the Lord when I lay My vengeance upon you.",
+      "websiteTerms": "Or it could mean you're the righteous man and I'm the shepherd and it's the world that's evil and selfish."
+    },
+    {
+      "languageCode": "en",
+      "websiteDescription": "No man, they got the metric system. They wouldn't know what the fuck a Quarter Pounder is.",
+      "websiteDetails": "Then what do they call it?",
+      "websiteTerms": "They call it a Royale with cheese."
+    },
+    {
+      "languageCode": "pt-br",
+      "websiteDescription": "portugues",
+      "websiteDetails": "portugues.",
+      "websiteTerms": "portugues."
+    }
+  ]
+}

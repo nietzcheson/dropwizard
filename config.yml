@@ -1,0 +1,51 @@
+databaseM4C:
+  driverClass: oracle.jdbc.OracleDriver
+  user: m4c
+  password: m4c120905
+  #PROD
+  url: jdbc:oracle:thin:@10.194.17.173:1521:M4C
+  #url: jdbc:oracle:thin:@45.33.89.111:1521:M4C
+  #DEV
+  #url: jdbc:oracle:thin:@10.194.18.59:1521:M4C
+  validationQuery: "SELECT 1 FROM DUAL"
+
+databaseOnlineDB:
+  driverClass: oracle.jdbc.OracleDriver
+  user: m4c
+  password: m4csys73xrv
+  #DEV
+  #url: jdbc:oracle:thin:@10.194.18.59:1521:onlinedb
+  #PROD
+  url: jdbc:oracle:thin:@10.194.17.173:1521:M4C
+  #url: jdbc:oracle:thin:@45.33.89.111:1521:M4C
+  validationQuery: "SELECT 1 FROM DUAL"
+
+databaseInventarioDB:
+  driverClass: oracle.jdbc.OracleDriver
+  user: inventario
+  password: inv120905
+  #DEV
+  #url: jdbc:oracle:thin:@10.194.18.59:1521:sistemas
+  #PROD
+  url: jdbc:oracle:thin:@10.194.17.173:1521:sistemas
+  #url: jdbc:oracle:thin:@45.33.89.111:1521:sistemas
+  validationQuery: "SELECT 1 FROM DUAL"
+
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 9010
+  adminConnectors:
+    - type: http
+      port: 9011
+
+# Logging settings.
+logging:
+  # Logger-specific levels.
+  loggers:
+   org.hibernate.SQL: ALL
+
+assets:
+  overrides:
+    /uploads: "C:/Users/Juan/Pictures/uploads/"

@@ -1,0 +1,16 @@
+{
+  "name": "Hottest ten",
+  "destinationId": 33,
+  "countryCode": "MEX",
+  "stateId": 222,
+  "city": "Cancun",
+  "zipCode": "77500",
+  "address": "1 Fk Street",
+  "website":"http://www.hotelito.com",
+  "translations": [
+    {
+      "languageCode": "en",
+      "websiteDescription": "No man, they got the metric system. They wouldn't know what the fuck a Quarter Pounder is."
+    }
+  ]
+}
